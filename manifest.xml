@@ -4,7 +4,6 @@
 
     <!-- Remotes -->
     <remote name="LineageOS" fetch="https://github.com/LineageOS" />
-    <remote name="yaap" fetch="https://github.com/yaap" />
     <remote name="derpbygrep" fetch="https://github.com/derpbygrep" />
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
@@ -19,32 +18,32 @@
         name="proprietary_vendor_oneplus_sm8650-common"
         remote="yaap"
         clone-depth="1"
-        revision="lineage-23.0" />
+        revision="sixteen" />
     <project
         path="device/oneplus/sm8650-common"
         name="device_oneplus_sm8650-common"
         remote="yaap"
-        revision="lineage-23.0" />
+        revision="sixteen" />
     <project
         path="kernel/oneplus/sm8650"
         name="kernel_oneplus_sm8650"
         remote="yaap"
-        revision="lineage-23.0" />
+        revision="sixteen" />
     <project
         path="kernel/oneplus/sm8650-modules"
         name="kernel_oneplus_sm8650-modules"
         remote="yaap"
-        revision="lineage-23.0" />
+        revision="sixteen" />
     <project
         path="kernel/oneplus/sm8650-devicetrees"
         name="kernel_oneplus_sm8650-devicetrees"
         remote="yaap"
-        revision="lineage-23.0" />
+        revision="sixteen" />
     <project
         path="hardware/oplus"
         name="hardware_oplus"
         remote="derpbygrep"
-        revision="lineage-23.0" />
+        revision="sixteen" />
     <project
         path="vendor/oneplus/lexus"
         name="proprietary_vendor_oneplus_lexus"
