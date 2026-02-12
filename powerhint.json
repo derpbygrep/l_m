@@ -26,6 +26,7 @@
             "Name": " SysWaltSchedBoost",
             "Path": "/proc/sys/walt/sched_boost",
             "Values": [
+                "0",
                 "1",
                 "2"
             ],
@@ -98,7 +99,7 @@
             "Values": [
                 "0:9999999 1:9999999 2:9999999 3:9999999 4:9999999 5:9999999 6:9999999 7:9999999",
                 "0:1593600 1:1593600 2:1593600 3:1286400 4:1286400 5:1286400 6:1286400 7:2150400",
-                "0:1900800 1:1900800 2:1900800 3:2611200 4:2611200 5:2611200 6:2611200 7:2803200",
+                "0:2016000 1:2016000 2:2016000 3:2707200 4:2707200 5:2707200 6:2707200 7:2918400",
                 "3:1056000 4:1056000 5:1056000 6:1056000"
             ],
             "DefaultIndex": 0,
@@ -268,6 +269,7 @@
             "Name": " DevicesSystemCpuCpu3CpufreqWaltPl",
             "Path": "/sys/devices/system/cpu/cpu3/cpufreq/walt/pl",
             "Values": [
+                "1",
                 "0"
             ],
             "DefaultIndex": 0,
@@ -277,6 +279,7 @@
             "Name": " DevicesSystemCpuCpu0CpufreqWaltPl",
             "Path": "/sys/devices/system/cpu/cpu0/cpufreq/walt/pl",
             "Values": [
+                "1",
                 "0"
             ],
             "DefaultIndex": 0,
@@ -296,7 +299,7 @@
             "Name": " SysWaltSchedUpmigrate",
             "Path": "/proc/sys/walt/sched_upmigrate",
             "Values": [
-                "71 95",
+                "95 95",
                 "50 85"
             ],
             "DefaultIndex": 0,
@@ -465,7 +468,7 @@
         {
             "PowerHint": "LAUNCH",
             "Node": " KernelMsmPerformanceParametersCpuMaxFreq",
-            "Value": "0:1900800 1:1900800 2:1900800 3:2611200 4:2611200 5:2611200 6:2611200 7:2803200",
+            "Value": "0:2016000 1:2016000 2:2016000 3:2707200 4:2707200 5:2707200 6:2707200 7:2918400",
             "Duration": 2000
         },
         {
